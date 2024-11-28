@@ -1,0 +1,28 @@
+// App.scss
+$primary-color: #B037A6;
+$secondary-color: #dba634;
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, span{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+
+body {
+//   background-color: $primary-color;
+  font-family: Arial, sans-serif;
+  text-align: center;
+
+  h1 {
+    color: #333;
+    // text-align: center;
+  }
+}
+.container{
+    margin: auto;
+}
+

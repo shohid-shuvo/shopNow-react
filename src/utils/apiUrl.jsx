@@ -1,1 +1,1 @@
-export const MAIN_URL = 'https://dummyjson.com/~~';
+export const MAIN_URL = 'https://dummyjson.com/';

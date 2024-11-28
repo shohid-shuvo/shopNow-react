@@ -1,0 +1,20 @@
+@import "../../App.scss";
+$primary-color: #B037A6;
+
+.header{
+    background: $primary-color;
+    background: linear-gradient(180deg, #B037A6, 48.1) 0%, #b037a6c3 100%;
+
+    .header-sdl-top{
+        border-bottom: 1px solid $primary-color;
+    }
+
+    @media screen and (max-width:992px){
+        .header-sdl-top{
+            flex-direction: column;
+            .header-sdl-top-l{
+                margin-bottom: 4px;
+            }
+        }
+    }
+}
